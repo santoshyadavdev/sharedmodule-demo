@@ -1,2 +1,6 @@
-<app-employee></app-employee>
-<app-department></app-department>
+<a [routerLink]="['/employee']" routerLinkActive="router-link-active">
+  Employee</a>
+<a [routerLink]="['/department']" routerLinkActive="router-link-active">
+  Department</a>
+
+<router-outlet></router-outlet>
